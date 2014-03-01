@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experimenting</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<style>
+	</style>
+</head>
+
+<body>
+	<div id="placeholder">
+
+	<script>
+
+	    var data = {"users":[
+            {
+                "firstName":"Ray",
+                "lastName":"Villalobos",
+                "joined": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },
+            {
+                "firstName":"John",
+                "lastName":"Jones",
+                "joined": {
+                    "month":"April",
+                    "day":28,
+                    "year":2010
+                }
+            }
+    ]}
+
+	    //console.log(data.firstName);
+	    var output="<ul>";
+    for (var i in data.users) {
+        output+="<li>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month+"</li>";
+    }
+    output+="</ul>";
+
+    document.getElementById("placeholder").innerHTML=output;
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Informed by http://www.trirand.com/jqgridwiki/doku.php?id=wiki:first_grid -->
+<html>
+<head>
+<title>4 Experimenting</title>
+ 
+<link rel="stylesheet" type="text/css" href="css/theme/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/ui.jqgrid.css" />
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/i18n/grid.locale-en.js" type="text/javascript"></script>
+<script src="js/jquery.jqGrid.src.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function () {
+    $("#list").jqGrid({
+        url:'https://formhub.org/mberg/forms/good_eats/api',
+        datatype: "json",
+        colNames:['Submit Date','Description','Amount','Food Type', 'Location', 'Rating'],
+        colModel:[
+            {name:'submit_date',index:'submit_date', width:100, sortable:true},
+            {name:'description',index:'description', width:100, sortable:true},
+            {name:'amount',index:'amount', width:60, sortable:true},
+            {name:'food_type',index:'food_type', width:90},
+            {name:'location_name',index:'location_name', width:200},
+            {name:'rating',index:'rating', width:80},
+        ],
+        autowidth: true,
+        loadonce:true,
+        pager: "#pager",
+        rowNum: 25,
+        rowList: [25, 50, 100],
+        sortname: "amount", //Defaults to first column anyway
+        sortorder: "asc", //Doesn't appear to work ...
+        viewrecords: true, //Shows Total records on lower right
+        height:500,
+        //autoencode: true,
+        caption: "Good_eats data table"
+    }); 
+}); 
+</script> 
+</head>
+
+<body>
+    <table id="list"><tr><td></td></tr></table> 
+    <div id="pager"></div> 
+
+    <h3>Notes</h3>
+    <ul>
+        <li>For some reason, had to set <code>loadonce: true</code> for sorting/paging to work.</li>
+        <li>Sorting on load does not seem to be working. Currently have set:<ul>
+            <li><code>sortname: "amount"</code> //The arrows show up, but it's not working.</li>
+            <li><code>sortorder: "asc"</code></li>
+        </ul></li>
+        <li>The javascript is all in the head section. Not sure if it should be in the body.
+    </ul>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experimenting</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<style></style>
+</head>
+
+<body>
+	<div id="things"></div>
+    <table id="datatable">
+        <tbody id="tablerows">
+            <tr>
+                <th>Location Name</th>
+                <th>Description</th>
+                <th>Rating</th>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+
+var url = 'https://formhub.org/mberg/forms/good_eats/api';
+
+$.getJSON(
+    url,
+    function (data)
+    {
+        var $things = $('#tablerows');
+        // $things.empty();
+        if (data.length !== 0) {
+            $.each(data, function (i, row)
+            {
+                $things.append($('<tr></tr>', { text: row.rating }));
+            });
+        } else {
+            $things.append($('', { text: 'No data' }));
+        }
+    }
+);
+    </script>
+
+
+
+
+</body>
+</html>
