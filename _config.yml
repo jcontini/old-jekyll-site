@@ -1,3 +1,30 @@
-name: Your New Jekyll Site
+name: Joe Contini
+baseurl: 
+description: 'Hello, World!'
+github: https://github.com/jcontini/
+twitter: https://twitter.com/jcontini
+#facebook: http://www.facebook.com
+linkedin: https://linkedin.com/in/jcontini
+email: hi[at]joecontini.com
+location: 42°2'16"N   70°12'47"W
+#disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
 markdown: redcarpet
-pygments: true
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
