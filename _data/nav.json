@@ -1,22 +1,18 @@
 [
 	{
+	"name":"About",
+	"url":"/about.html",
+	},
+	{
 	"name":"Blog",
-	"url":"/list.html",
+	"url":"/blog.html",
 	},
 	{
 	"name":"Links",
 	"url":"/links.html",
 	},
 	{
-	"name":"Ideas",
-	"url":"/projects.html",
-	},
-	{
 	"name":"Quotes",
 	"url":"/quotes.html",
-	},
-	{
-	"name":"About",
-	"url":"/about.html",
 	}
 ]
