@@ -217,6 +217,7 @@ p
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
   padding: 0.5em;
+  margin-bottom:1em;
 }
 
 /* end jcontini edits */
@@ -387,7 +388,7 @@ pre
   font-size:35px;
   font-weight:700;
   color:#d90006;
-  padding-top:15px
+  margin-top: 5px;
 }
 
 .meta
