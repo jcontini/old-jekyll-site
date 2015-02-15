@@ -1,7 +1,30 @@
 [
 	{
-	"url":"https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired?language=en",
-	"what":"When you're getting medical treatment, or taking part in medical testing, privacy is important; strict laws limit what researchers can see and know about you. But what if your medical data could be used — anonymously — by anyone seeking to test a hypothesis? John Wilbanks wonders if the desire to protect our privacy is slowing research, and if opening up medical data could lead to a wave of health care innovation.",
-	"tags":["medicine","als","tedtalk","opendata"]
+		"name":"The big idea my brother inspired",
+		"url":"https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired?language=en",
+		"what":"When you're getting medical treatment, or taking part in medical testing, privacy is important; strict laws limit what researchers can see and know about you. But what if your medical data could be used — anonymously — by anyone seeking to test a hypothesis? John Wilbanks wonders if the desire to protect our privacy is slowing research, and if opening up medical data could lead to a wave of health care innovation.",
+		"category:": "TED Talks",
+		"tags":["medicine","als","opendata"]
+	},
+	{
+		"name":"Ona.io",
+		"url":"http://ona.io/",
+		"what":"Open source, A+ Offline web & Android data collection software that we've used extensively. A modern fork of Formhub, from the same dev team.",
+		"category": "ICT4D",
+		"tags":["datacollection","opensource"]
+	},
+	{
+		"name":"Jekyll",
+		"url":"http://jekyllrb.com/",
+		"what":"A fantastic static site generator that I use to power this website. Integrates nicely with Github pages. I've used it to build websites for USG, and was inspired by <a href='http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/'>this Devseed article</a>.",
+		"category": "Web Dev",
+		"tags":["opensource"]
+	},
+	{
+		"name":"Trello",
+		"url":"https://trello.com/",
+		"what":"A great way to organize your ideas into boards, cards, and lists. For personal use and small projects, I prefer it to Asana.",
+		"Category":"Productivity",
+		"tags":["productivity","collaboration","api"]
 	}
 ]

@@ -214,7 +214,6 @@ p
 /* jcontini edits */
 .section
 {
-  margin-bottom:30px;
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
   padding: 0.5em;
@@ -582,106 +581,6 @@ time
   font-weight:lighter;
   color:#737373;
   text-shadow:1px 1px #fff
-}
-
-.fashion
-{
-  border-left:solid 2px #bc0005
-}
-
-.fashion-button
-{
-  background-color:#bc0005
-}
-
-.fashion:hover
-{
-  border-left:solid 2px #f40006
-}
-
-.fashion-button:hover
-{
-  background-color:#f40006
-}
-
-.programming
-{
-  border-left:solid 2px #7dbcb2
-}
-
-.programming-button
-{
-  background-color:#7dbcb2
-}
-
-.programming:hover
-{
-  border-left:solid 2px #bbe9e2
-}
-
-.programming-button:hover
-{
-  background-color:#bbe9e2
-}
-
-.tech
-{
-  border-left:solid 2px #644539
-}
-
-.tech-button
-{
-  background-color:#644539
-}
-
-.tech:hover
-{
-  border-left:solid 2px #F4A273
-}
-
-.tech-button:hover
-{
-  background-color:#F4A273
-}
-
-.misc
-{
-  border-left:solid 2px #9e9599
-}
-
-.misc-button
-{
-  background-color:#9e9599
-}
-
-.misc:hover
-{
-  border-left:solid 2px #cfe0ea
-}
-
-.misc-button:hover
-{
-  background-color:#cfe0ea
-}
-
-.podcasts
-{
-  border-left:solid 2px #387b94
-}
-
-.podcasts-button
-{
-  background-color:#387b94
-}
-
-.podcasts:hover
-{
-  border-left:solid 2px #2FD0EF
-}
-
-.podcasts-button:hover
-{
-  background-color:#2FD0EF
 }
 
 #menu-toggle,.project-post div

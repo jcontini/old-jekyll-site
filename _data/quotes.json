@@ -4,6 +4,10 @@
     "author":"Abraham Lincoln"
   },
   {
+    "quote":"Life is like riding a bicycle. To keep your balance you must keep moving.",
+    "author":"Albert Einstein"
+  },
+  {
     "quote":"We live in deeds, not years. He most lives who thinks most, feels the noblest, acts the best.",
     "author":"Aristotle"
   },
@@ -18,10 +22,6 @@
   {
     "quote":"Inaction breeds doubt and fear. Action breeds confidence and courage. If you want to conquer fear, do not sit home and think about it. Go out and get busy.",
     "author":"Dale Carnegie"
-  },
-  {
-    "quote":"Life is like riding a bicycle. To keep your balance you must keep moving.",
-    "author":"Einstein"
   },
   {
     "quote":"A good plan, violently executed now, is better than a perfect plan next week.",
@@ -56,12 +56,8 @@
     "author":"Steve Jobs"
   },
   {
-    "quote":"Here, we should not confuse passion with an immature and short sighted hedonism in which you only do what you feel like doing in the moment. ",
-    "author":"Steve Taylor"
-  },
-  {
     "quote":"But we know that as individuals we tend to systemically overestimate the cost of failure and underestimate the cost of inaction.",
-    "author":"Steve Taylor"
+    "author":"Steve Taylor (WPI)"
   },
   {
     "quote":"Far better it is to dare mighty things, to win glorious triumphs, even though checkered by failure, than to rank with those poor spirits who neither enjoy much nor suffer much, because they live in that grey twilight that knows neither victory nor defeat.",

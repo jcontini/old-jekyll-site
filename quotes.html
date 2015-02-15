@@ -1,17 +1,19 @@
 ---
 title: Quotes
 ---
-<div class="section">
-  <h1>Quotes</h1>
+<div class="container">
+	<div class="section">
+	  <h1>Quotes</h1>
+	  <p>Below is a list of quotes that have stuck with me as I've encountered them in various places over the years.</p>
+	</div>
 </div>
 
 {% for quote in site.data.quotes %}
 <div class="container">
-    <div class="row">
       <div class="section">
         <p>{{ quote.quote }}</p>
-        <p><small class="meta">&nbsp;<i class="fa fa-pencil-square-o"></i> {{ quote.author }}</small></p>
+        <small class="meta">&nbsp;<i class="fa fa-pencil-square-o"></i>
+        <a href="https://www.google.com/search?q={{ quote.author }}" target="_blank">{{ quote.author }}</a></small>
       </div>
-    </div>
 </div>
 {% endfor %}
