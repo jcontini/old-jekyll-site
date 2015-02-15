@@ -1,0 +1,17 @@
+---
+title: Quotes
+---
+<div class="section">
+  <h1>Quotes</h1>
+</div>
+
+{% for quote in site.data.quotes %}
+<div class="container">
+    <div class="row">
+      <div class="section">
+        <p>{{ quote.quote }}</p>
+        <p><small class="meta">&nbsp;<i class="fa fa-pencil-square-o"></i> {{ quote.author }}</small></p>
+      </div>
+    </div>
+</div>
+{% endfor %}

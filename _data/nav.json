@@ -1,6 +1,6 @@
 [
 	{
-	"name":"List",
+	"name":"Blog",
 	"url":"/list.html",
 	},
 	{
@@ -8,8 +8,12 @@
 	"url":"/links.html",
 	},
 	{
-	"name":"Projects",
+	"name":"Ideas",
 	"url":"/projects.html",
+	},
+	{
+	"name":"Quotes",
+	"url":"/quotes.html",
 	},
 	{
 	"name":"About",
