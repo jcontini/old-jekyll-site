@@ -1,15 +1,17 @@
 ---
 title: Quotes
 ---
-	<div class="section">
-	  <h1 class="article-title">Quotes</h1>
-	  <p>These are quotes I've come across that have had meaning to me at some point in my life.</p>
-	</div>
+<div class="section">
+  <h1 class="article-title">Quotes</h1>
+  <p>These are quotes I've come across that have had meaning to me at some point in my life.</p>
+</div>
 
-	{% for quote in site.data.quotes %}
-  <div class="section">
-    <p>{{ quote.quote }}</p>
-    <small class="meta">&nbsp;<i class="fa fa-pencil-square-o"></i>
-    <a href="https://www.google.com/search?q={{ quote.author }}" target="_blank">{{ quote.author }}</a></small>
-  </div>
-	{% endfor %}
+{% for quote in site.data.quotes %}
+<div class="section">
+  <span class="quote">"{{ quote.quote }}"</span>
+	  <span class="quote-author">
+	  	<i class="fa fa-pencil-square-o"></i>
+	  	<a href="https://www.google.com/search?q={{ quote.author }}" target="_blank">{{ quote.author }}</a>
+	  </span>
+</div>
+{% endfor %}

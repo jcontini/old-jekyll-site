@@ -1,5 +1,4 @@
 <div class="navbar navbar-default" role="navigation">
-  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -7,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <p class="navbar-brand"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
+      <a href="{{ site.baseurl }}"><h1 class="navbar-brand">{{ site.name }}</h1></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -18,7 +17,6 @@
       
       </ul>
     </div><!--/.nav-collapse -->
-  </div>
 </div><!--/.navbar-->
 
 <!-- Sidebar -->
@@ -33,9 +31,9 @@
 
     <hr />
     <div id="social-wrapper">
-      <li> <a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter-square"></i> twitter</a></li>
-      <li> <a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
-      <li> <a href="{{ site.github }}" target="_blank"><i class="fa fa-github-square"></i> github</a> </li>
+      <li><a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter-square"></i> twitter</a></li>
+      <li><a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+      <li><a href="{{ site.github }}" target="_blank"><i class="fa fa-github-square"></i> github</a> </li>
     </div>
   </ul>
 </div><!--/.sidebar-wrapper-->

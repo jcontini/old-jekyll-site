@@ -159,6 +159,10 @@ p
   color:#5d5f67
 }
 
+.navbar-brand {
+  font-size:2em;
+}
+
 .nav-toggle {
     display: none;
     color: #d90006;
@@ -218,6 +222,21 @@ p
   box-shadow:1px 1px 0 1px #e8e8e8;
   padding: 0.5em;
   margin-bottom:1em;
+}
+
+#links .btn {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.quote {
+  font-size:1.3em;
+  padding-right: 0.5em;
+}
+
+.quote-author {
+  text-align: right;
+  white-space: nowrap;
 }
 
 /* end jcontini edits */
@@ -338,49 +357,15 @@ pre
 
 .credit
 {
-  bottom:0;
-  width:100%;
   font-size:.8em;
   text-shadow:1px 1px #fff;
   padding-left:20px;
-  margin-bottom:0;
-  padding-bottom:5px;
-  padding-top:5px;
-  margin-top:40px;
-  z-index:1;
   color:#cdcdcd
 }
 
-.label-danger
-{
-  background-color:#697b7b;
-  font-weight:400;
-  border-radius:.2em;
-  font-size:120%
-}
-
-.label-danger:hover
-{
-  background-color:#2d4440;
-  transition:all .4s ease 0
-}
-
-.showcase-button
-{
-  border-radius:.5em;
-  background-color:transparent;
-  border:1px solid rgba(255,255,255,.4);
-  color:rgba(255,255,255,.8);
-  font-weight:200;
-  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-}
-
-.showcase-button:hover
-{
-  border:1px solid rgba(255,255,255,1);
-  color:rgba(255,255,255,1);
-  background-color:transparent;
-  transition:all .2s ease 0
+#footer-social a {
+  color: #999;
+  margin-left:0.5em;
 }
 
 .article-title
