@@ -3,10 +3,8 @@ baseurl:
 description: 'Hello world!'
 github: https://github.com/jcontini/
 twitter: https://twitter.com/jcontini
-#facebook: http://www.facebook.com
 linkedin: https://linkedin.com/in/jcontini
-email: hi[at]joecontini.com
-location: 'Washington, DC'
+email: hi@joecontini.com
 disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
