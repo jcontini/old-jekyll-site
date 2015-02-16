@@ -1,13 +1,14 @@
 name: Joe Contini
 description: "Joe's Adventures"
 url: https://jcontini.github.io
+rss: https://jcontini.github.io/feed.xml
 github: https://github.com/jcontini/
 twitter: https://twitter.com/jcontini
 foursquare: https://foursquare.com/jcontini
 instagram: http://instagram.com/jcontini/
 linkedin: https://linkedin.com/in/jcontini
 email: hi@joecontini.com
-disqus: diqus-username
+disqus: joecontini
 baseurl: 
 
 ##Make sure to edit the above fields, especially for disqus.
