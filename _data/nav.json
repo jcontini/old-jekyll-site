@@ -2,17 +2,16 @@
 	{
 	"name":"About",
 	"url":"/about.html",
-	},
-	{
-	"name":"Blog",
-	"url":"/blog.html",
+	"class":"fa fa-smile-o"
 	},
 	{
 	"name":"Links",
 	"url":"/links.html",
+	"class":"fa fa-link"
 	},
 	{
 	"name":"Quotes",
 	"url":"/quotes.html",
+	"class":"fa fa-quote-left"
 	}
 ]

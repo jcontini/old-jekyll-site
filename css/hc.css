@@ -474,15 +474,11 @@ time
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
   max-width:800px;
-  padding:10px 40px 0
+  padding:0px 40px 0
 }
 
 .user-card h1
 {
-  font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
-  font-weight:bolder;
-  font-size:2.5em;
-  line-height:55px;
   color:#d90006
 }
 
@@ -495,7 +491,6 @@ time
 .card
 {
   margin-left:-40px;
-  margin-top:-10px
 }
 
 .letter p
