@@ -7,7 +7,7 @@ title: Links
   <center>
   {% assign categories = "ICT4D|Productivity|TED Talks|Web Dev" | split: "|" %}
   {% for cat in categories %}
-  <a href="#{{ cat | remove:' ' }}"><button class="btn btn-primary btn-sm">{{ cat }}</button></a>
+  <a href="#{{ cat | remove:' ' }}"><button class="btn btn-primary btn-sm cat">{{ cat }}</button></a>
   {% endfor %}
   </center>
   <br>
