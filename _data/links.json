@@ -14,6 +14,13 @@
 		"tags":["free","datacollection","opensource"]
 	},
 	{
+		"name":"Principles for Digital Development",
+		"url":"http://ict4dprinciples.org/",
+		"what":"9 principles to guide the implementation of information and communications technology for development (ICT4D) projects. If you're around DC, try to make the events in person.",
+		"category": "ICT4D",
+		"tags":["bestpractices","lessonslearned"]
+	},
+	{
 		"name":"Jekyll",
 		"url":"http://jekyllrb.com/",
 		"what":"A fantastic static site generator that I use to power this website. Integrates nicely with Github pages. I've used it to build websites for USG, and was inspired by <a href='http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/' target='_blank'>this Devseed article</a>.",

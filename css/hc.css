@@ -359,7 +359,22 @@ pre
   margin-left:0.5em;
 }
 
+#article {
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 1px 1px 0 1px #e8e8e8;
+  padding: 10px 40px 0;
+}
+
 .article-title
+{
+  font-size:35px;
+  font-weight:700;
+  color:#d90006;
+  padding-top: 15px;
+}
+
+.page-title
 {
   font-size:35px;
   font-weight:700;
