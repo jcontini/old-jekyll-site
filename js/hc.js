@@ -5,6 +5,10 @@ $(document).ready(function() {
     $(".showcase-wrapper").fadeIn("slow");
 });
 
+/* Make external links open in a new window */
+$(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
 
 /*
 var toggle = false;
@@ -22,9 +26,3 @@ $('.nav-toggle').on('click', function () {
     }
 });
 */
-
-$(function() {
-    $('.project-box').click(function() {
-        $(this).find('.post').slideToggle();
-    });
-});

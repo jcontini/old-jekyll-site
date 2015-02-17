@@ -1,5 +1,10 @@
 [
 	{
+	"name":"Blog",
+	"url":"/blog.html",
+	"class":"fa fa-rss"
+	},
+	{
 	"name":"About",
 	"url":"/about.html",
 	"class":"fa fa-smile-o"
