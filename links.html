@@ -1,8 +1,9 @@
 ---
 title: Links
 ---
-<div class='section' id="Links">
+<div class='page' id="Links">
   <h1 class='page-title'>Links</h1>
+  <hr />
   <p>Good, interesting, and useful things that I'm a fan of.</p><br>
   <center>
   {% assign categories = "ICT4D|Productivity|TED Talks|Web Dev" | split: "|" %}
@@ -11,11 +12,11 @@ title: Links
   {% endfor %}
   </center>
   <br>
+  <hr />
 </div>
 
-<div id="article">
   {% for cat in categories %}
-  <div class="article section" id="{{ cat | remove:' ' }}">
+  <div class="page" id="{{ cat | remove:' ' }}">
     <h2>{{ cat }}</h2>
     <table class="table table-hover table-striped">
       <tbody>
@@ -34,4 +35,3 @@ title: Links
     </table>
   </div>
   {% endfor %}
-</div>
