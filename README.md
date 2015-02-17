@@ -3,7 +3,7 @@ Joe Contini - Personal Site
 
 My personal place on the web. Powered by Jekyll and Github Pages.
 
-Fork of [Herring Cove](https://github.com/arnp/herring-cove) Jekyll theme. Thanks [Ravi!](https://github.com/arnp).
+Fork of [Herring Cove](https://github.com/arnp/herring-cove) Jekyll theme. Thanks to [Ravi](https://github.com/arnp) for the theme.
 
 ### Notable changes in this fork ###
 
