@@ -1,11 +1,9 @@
 ---
 title: Blog
 ---
-<div class="section">
+<div class="page">
 	<h1 class="page-title">Blog Posts</h1>
-</div>
-
-<div class="section">
+	<hr>
 	<ul class="posts">
 	  {% for post in site.posts %}
 	  <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>

@@ -5,11 +5,6 @@
 	"class":"fa fa-rss"
 	},
 	{
-	"name":"About",
-	"url":"/about.html",
-	"class":"fa fa-smile-o"
-	},
-	{
 	"name":"Links",
 	"url":"/links.html",
 	"class":"fa fa-link"
@@ -18,5 +13,10 @@
 	"name":"Quotes",
 	"url":"/quotes.html",
 	"class":"fa fa-quote-left"
+	},
+	{
+	"name":"About",
+	"url":"/about.html",
+	"class":"fa fa-smile-o"
 	}
 ]
