@@ -308,6 +308,10 @@ pre
   transition:all .3s ease 0
 }
 
+#random {
+  padding: 0 40px;
+}
+
 .wide
 {
   width:100%;

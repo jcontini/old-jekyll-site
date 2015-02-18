@@ -27,6 +27,17 @@ jQuery(document).ready(function() {
     })
 });
 
+/* Random Quote Selector */
+$(document).ready(function () {
+    var url = "https://rawgit.com/jcontini/jcontini.github.io/master/_data/quotes.json";
+    $.getJSON(url,
+    function (json) {
+        var i = Math.floor(Math.random() * json.length);
+        $('#random #quote').html('<div>"' + json[i].quote + '"</div>');
+        $('#random #author').html('<div><i class="fa fa-pencil-square-o"></i>  ' + json[i].author + '</div>');
+    });
+});
+
 /*
 var toggle = false;
 $('.nav-toggle').on('click', function () {
