@@ -62,7 +62,8 @@ p
 
 .homepage-posts
 {
-  list-style:none
+  list-style:none;
+  padding-left:0;
 }
 
 .container
@@ -224,13 +225,19 @@ p
   margin-bottom:1em;
 }
 
+#links a {
+  border: none;
+}
+
 .cat {
   font-weight: 700;
   font-size: 1em;
+  margin: 2px;
+  text-decoration: none;
 }
 
 .quote {
-  font-size:1.3em;
+  font-size: 1.3em;
   padding-right: 0.5em;
 }
 
@@ -350,12 +357,16 @@ pre
 {
   font-size:.8em;
   text-shadow:1px 1px #fff;
-  padding-left:20px;
+  padding-left:0px;
   padding-right:10%;
   color:#cdcdcd
 }
 
-#footer-social a {
+footer {
+  margin: 1em 0;
+}
+
+footer a {
   color: #999;
   margin-left:0.5em;
 }
@@ -460,7 +471,6 @@ time
   background-color:#fff;
   color:#4d4d4d;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  margin:10px 10%;
   padding:10px 40px
 }
 

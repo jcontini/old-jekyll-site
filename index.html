@@ -2,42 +2,29 @@
 title: Joe Contini
 ---
 
-<div id="welcome-greeting">
+<div id="welcome-greeting" class="page">
   <h1>Hi There!</h1>
-  <h2>I'm just getting this website and running. Please enjoy the <a href="quotes.html">quotes</a> and <a href="links.html">links</a> while I work on the rest of the site.</h2>
+  <h2>I'm just getting this site online. Please enjoy the <a href="quotes.html">quotes</a> and <a href="links.html">links</a> or learn a little bit <a href="/about.html">about me</a> while I work on the rest of the site.</h2>
   <hr />
 </div>
 
 {% if site.posts != empty %}
 <div class="recent-posts">
-  <h1>Recent Posts</h1>
+  <h1>Blog Posts</h1>
+  <ul class="homepage-posts">
   {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-      {% endcapture %}
-    {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
+    <li>
+        <h4>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+          <time class="pull-right">
+            {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
+          </time>
+        </h4>
+    </li>
   {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/blog.html">View More...</a>
   </ul>
+  <span><a href="{{ site.baseurl }}/blog.html">View More...</a></span>
 </div>
 {% endif %}
