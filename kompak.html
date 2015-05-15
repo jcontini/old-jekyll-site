@@ -24,10 +24,14 @@
 		.panel-title {
 			font-size:18px;
 		}
+		.kompak-title {
+			color:#ee2e24;
+			font-size: 1.2em;
+		}
 		</style>
 	</head>
 	<body>
-		<h1 class="text-center">KOMPAK Launchpad</h1>
+		<h1 class="text-center"><b class="kompak-title">KOMPAK</b> Launchpad</h1>
 		<br />
 		<div class="container" >
 			<div class="row">
@@ -138,10 +142,24 @@
 								<h3 class="panel-title"><span class="glyphicon glyphicon-bullhorn"></span> Announcements</h3>
 						  </div>
 						  <div class="panel-body">
-						  <ul>
-						  	<li>This is just an example!</li>
-						  	<li>And also a menu of possile ICT apps for the program</li>
-						  </ul>
+							  <table class="table table-hover">
+							  	<thead>
+							  		<tr>
+							  			<th>Date</th>
+							  			<th>Announcement</th>
+							  		</tr>
+							  	</thead>
+							  	<tbody>
+							  		<tr>
+							  			<td>15/5/2015</td>
+							  			<td>FluidSurveys License aquired! Now we can make web surveys.</td>
+							  		</tr>
+							  		<tr>
+							  			<td>14/5/2015</td>
+							  			<td>Added descriptions of ICT apps</td>
+							  		</tr>
+							  	</tbody>
+							  </table>
 						  </div>
 					</div>
 					<div class="panel panel-default">
@@ -154,7 +172,7 @@
 								<!-- Select Basic -->
 								<div class="form-group">
 								  <label class="col-md-4 control-label" for="selectbasic">ICT Service</label>
-								  <div class="col-md-4">
+								  <div class="col-md-6">
 								    <select id="selectbasic" name="selectbasic" class="form-control">
 								      <option value="QMS">QMS</option>
 								      <option value="enQuire">enQuire</option>
@@ -172,7 +190,7 @@
 								<!-- Textarea -->
 								<div class="form-group">
 								  <label class="col-md-4 control-label" for="textarea">Comments</label>
-								  <div class="col-md-4">                     
+								  <div class="col-md-6">                     
 								    <textarea class="form-control" id="textarea" name="textarea"></textarea>
 								  </div>
 								</div>
