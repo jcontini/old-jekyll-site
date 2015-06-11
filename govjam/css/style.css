@@ -1,0 +1,24 @@
+.main {
+	width:80%;
+	margin: 0 auto;
+}
+
+#mainmenu {
+	
+}
+
+h2 {
+	color: blue;
+	font-size: 1.5em;
+}
+
+.main button {
+	width:100%;
+	display: block;
+	margin-top:0.5em;
+	height:4em;
+}
+
+.list-group input {
+	margin-right:1em;
+}
