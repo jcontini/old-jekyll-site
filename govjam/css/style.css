@@ -3,13 +3,8 @@
 	margin: 0 auto;
 }
 
-#mainmenu {
-	
-}
-
 h1 {
 	color:purple;
-	text-decoration: underline;
 }
 
 h2 {
@@ -17,13 +12,30 @@ h2 {
 	font-size: 1.5em;
 }
 
-#mainmenu button {
-	width:100%;
-	display: block;
-	margin-top:0.5em;
-	height:4em;
-}
-
 .list-group input {
 	margin-right:1em;
+}
+
+.mainimg1 {
+	background-image: url('../img/hired.png');
+}
+.mainimg2 {
+	background-image: url('../img/fired.png');
+}
+.mainimg3 {
+	background-image: url('../img/injured.png');
+}
+
+.mainimg1, .mainimg2, .mainimg3 {
+	margin: 0 auto;
+	text-align: center;
+	color:white;
+	height:10em;
+	display:block;
+	background-repeat: no-repeat;
+}
+
+#mainmenu div {
+	display:block;
+	margin-top:2em;
 }
