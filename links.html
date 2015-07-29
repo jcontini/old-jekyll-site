@@ -14,13 +14,13 @@ title: Links
   <br>
   <hr />
 </div>
-
+  {% assign sorted_links = (site.data.links | sort: 'name') %}
   {% for cat in categories %}
   <div class="page" id="{{ cat | remove:' ' }}">
     <h2>{{ cat }}</h2>
     <table class="table table-hover table-striped">
       <tbody>
-        {% for link in site.data.links %}{% if link.category == cat %}
+        {% for link in sorted_links %}{% if link.category == cat %}
         <tr>
           <td valign="top" class="col-sm-2">
             <a href="{{ link.url }}" target="_blank"><b>{{ link.name }}</b></a>

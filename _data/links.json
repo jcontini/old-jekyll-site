@@ -40,5 +40,26 @@
 		"what":"A great way to organize your ideas into boards, cards, and lists. For personal use and small projects, I prefer it to Asana.",
 		"category":"Productivity",
 		"tags":["free","productivity","collaboration","api"]
-	}
+	},
+	{
+		"name":"worldtimebuddy",
+		"url":"http://www.worldtimebuddy.com/",
+		"what":"The most intuitive time zone scheduler for multiple time zones. I use it every week.",
+		"category":"Productivity",
+		"tags":["free"]
+	},
+	{
+		"name":"Pocket",
+		"url":"https://getpocket.com/",
+		"what":"Save links to read later offline. Works seamlessly on iOS & Android. I literally use it every day.",
+		"category":"Productivity",
+		"tags":["free","api"]
+	},
+	{
+		"name":"Github Pages",
+		"url":"https://pages.github.com/",
+		"what":"A great place to host Jekyll or other websites that don't need an application server. No hosting costs at all! This site is hosted on Github Pages.",
+		"category":"Web Dev",
+		"tags":["free"]
+	}	
 ]
