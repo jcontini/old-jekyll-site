@@ -1,8 +1,3 @@
-$(document).ready(function() {
-    $(".container").hide();
-    $(".container").fadeIn('5000');
-});
-
 /* Make external links open in a new window */
 $(document.links).filter(function() {
     return this.hostname != window.location.hostname;
