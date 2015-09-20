@@ -3,6 +3,9 @@ $(document.links).filter(function() {
     return this.hostname != window.location.hostname;
 }).attr('target', '_blank');
 
+/* Start the bigfoots */
+$.bigfoot();
+
 /* Scroll to Top feature */
 jQuery(document).ready(function() {
     var offset = 250;
@@ -32,20 +35,3 @@ $(document).ready(function () {
         $('#random #author').html('<div><i class="fa fa-pencil-square-o"></i>  ' + json[i].author + '</div>');
     });
 });
-
-/*
-var toggle = false;
-$('.nav-toggle').on('click', function () {
-    if (toggle == false) {
-        $('#sidebar-wrapper').stop().animate({
-            'left': '4px'
-        });
-        toggle = true;
-    } else {
-        $('#sidebar-wrapper').stop().animate({
-            'left': '250px'
-        });
-        toggle = false;
-    }
-});
-*/
