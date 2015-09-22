@@ -1,6 +1,8 @@
 ---
 title: Mining WhatsApp for Language Learning
+published: true
 ---
+
 
 I recently moved to Indonesia and am slowly learning the local language, Bahasa Indonesia. I've been learning a bit from a tutor, but when I try to use the sentences and words in conversation, my local friends tell me that the style I'm using is too formal and not how people naturally talk. I also noticed a lot of slang/informal words in Bahasa-speaking WhatsApp groups I've been added to.
 
@@ -20,4 +22,4 @@ If anyone has suggestions for improving the code/process, please [submit a pull 
 
 ![Translating words in Google Sheets](/images/posts/translate.gif)
 
-Shout out to my friend and former colleage [@_couper](https://twitter.com/_couper) for convincing me to write this post. I've been meaning to get blogging for awhile and this seems like a good start!
+Shout out to my friend and former colleague [@_couper](https://twitter.com/_couper) for convincing me to write this post. I've been meaning to get blogging for awhile and this seems like a good start!
