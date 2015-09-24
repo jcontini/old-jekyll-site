@@ -497,23 +497,9 @@ time
   color:#d90006
 }
 
-.user-card p
-{
-  color:#c4c4c4;
-  font-size:small
-}
-
 .card
 {
   margin-left:-40px;
-}
-
-.letter p
-{
-  font-size:1.2em;
-  font-weight:lighter;
-  color:#737373;
-  text-shadow:1px 1px #fff
 }
 
 #menu-toggle,.project-post div
