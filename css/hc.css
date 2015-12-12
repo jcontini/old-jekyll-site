@@ -37,10 +37,14 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
   color:#29598c
 }
 
-p
+p, li
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:200
+}
+
+li {
+  margin-bottom: 1em;
 }
 
 #wrapper
@@ -256,11 +260,6 @@ blockquote
   margin-right:-40px;
   padding-left:40px;
   background:#f3f3f7
-}
-
-ul,ol
-{
-  font-weight:lighter
 }
 
 pre

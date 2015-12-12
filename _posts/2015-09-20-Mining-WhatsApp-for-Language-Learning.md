@@ -12,7 +12,7 @@ As a fan of the Pareto principle, I thought that maybe if I could learn the 20% 
 
 1. Download the .txt file to your computer. In my case, this was "WhatsApp Chat with Open Data Club.txt". I renamed it to WhatsApp.txt for simplicity.
 
-1. Save [this little Python script](/files/wordcount.py) I threw together to the same folder that your WhatsApp text file is in. This filters out the metadata (names, phone numbers, dates), counts all the words, and saves them to a CSV.
+1. I put together [this little Python script](/files/wordcount.py) that filters out the chat metadata (names, phone numbers, dates) to focus on just the message content, counts all the words, and saves them to a CSV. Save that file to the same folder that your WhatsApp text file is in. You already have Python if you're on a Mac. If you have Windows, you might need to [install Python](https://www.python.org/downloads/windows/) first.
 
 1. Open up a terminal in that folder and type `python wordcount.py WhatsApp.txt`, where WhatsApp.txt is the name of the text file with the conversation. Within a few seconds, you should see 'output.csv' created in that same folder. That's your list! By default, this exports a CSV with the count of all words. If you want to limit to the top 100 words, you can do that by `python wordcount.py WhatsApp.txt 100`.
 
@@ -22,4 +22,4 @@ If anyone has suggestions for improving the code/process, please [submit a pull 
 
 ![Translating words in Google Sheets](/images/posts/translate.gif)
 
-Shout out to my friend and former colleague [@_couper](https://twitter.com/_couper) for convincing me to write this post. I've been meaning to get blogging for awhile and this seems like a good start!
+Thanks to my friend and former colleague [@_couper](https://twitter.com/_couper) for encouraging me to write this post. I've been meaning to get blogging for awhile and this seems like a good start!
