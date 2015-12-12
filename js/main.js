@@ -31,7 +31,7 @@ $(document).ready(function () {
     $.getJSON(url,
     function (json) {
         var i = Math.floor(Math.random() * json.length);
-        $('#random #quote').html('<div>"' + json[i].quote + '"</div>');
-        $('#random #author').html('<div><i class="fa fa-pencil-square-o"></i>  ' + json[i].author + '</div>');
+        $('#random #quote').html(json[i].quote);
+        $('#random #author').html('<i class="fa fa-pencil-square-o"></i>  ' + json[i].author);
     });
 });

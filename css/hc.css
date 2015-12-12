@@ -43,7 +43,7 @@ p, li
   font-weight:200
 }
 
-li {
+.container li {
   margin-bottom: 1em;
 }
 
@@ -309,6 +309,10 @@ pre
 
 #random {
   padding: 0 40px;
+}
+
+#random #author {
+  margin-top:0.5em;
 }
 
 .wide
