@@ -250,6 +250,10 @@ p, li
   white-space: nowrap;
 }
 
+blockquote:before {
+  content: none;
+}
+
 /* end jcontini edits */
 
 blockquote
