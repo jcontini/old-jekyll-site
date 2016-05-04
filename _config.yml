@@ -11,8 +11,6 @@ email: joe@contini.co
 disqus: jcontini
 baseurl: 
 
-highlighter: pygments
-
 defaults:
   - scope:
       path: ""
