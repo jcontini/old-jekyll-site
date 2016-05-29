@@ -12,7 +12,7 @@ I just picked up a Raspberry Pi 3 Model B and figured I'd write a quick how-to o
 - Micro USB cable for powering the Pi
 - TV
 
-##Tutorial
+## Tutorial
 1. Download [BerryBoot](http://www.berryterminal.com/doku.php/berryboot) and unzip the files to a fresh (FAT formatted) microSD card.
 2. Put that microSD card in the Pi
 3. Connect the HDMI cable from the Pi to the TV. Turn on the TV.
@@ -29,9 +29,9 @@ From here, you can follow the OpenELEC wizard to guide you through the rest of t
 - Calibrate the screen by going to **System** > **Settings** > **System** > **Video Calibration...**.
 - I like to disable the RSS news feed at the bottom. You can do this at **System** > **Settings** > uncheck **Show RSS news feeds**.
 
-##Thought Process
+## Thought Process
 
-###Choosing an Operating System
+### Choosing an Operating System
 Kodi itself is just an application, so it has to run on top of an operating system. The two most common Linux OS's for running Kodi on the Pi are [OSMC](https://osmc.tv/) and [OpenELEC](http://openelec.tv/home/what-is-openelec). I've used both and prefer OpenELEC as it:
 
 - Has a simple getting started wizard for configuration
@@ -39,7 +39,7 @@ Kodi itself is just an application, so it has to run on top of an operating syst
 - Better handles automatic updates (IMO)
 - Can be installed from Berryboot (next section)
 
-###Deciding to use BerryBoot
+### Deciding to use BerryBoot
 The traditional way to install an OS on the Pi is to flash the linux distribution to the microSD card using your computer, and then install from there. I came across BerryBoot, which is itself a tiny bootloader OS that is dedicated to letting you easily download and load multiple operating systems on the Pi. Once BerryBoot is installed, you can:
 
 - Browse, download, and install multiple OS's without a computer
