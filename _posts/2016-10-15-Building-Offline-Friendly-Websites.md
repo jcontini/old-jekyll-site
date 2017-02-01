@@ -1,5 +1,6 @@
 ---
 title: Building Offline-Friendly Websites
+published: false
 ---
 
 ##Downloading (almost) any website for offline access

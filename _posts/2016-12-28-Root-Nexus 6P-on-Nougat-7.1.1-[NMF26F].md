@@ -1,4 +1,7 @@
-#How to root Nexus 6P on 7.1.1 [NMF26F]
+---
+title: Rooting Nexus 6P on 7.1.1 [NMF26F]
+published: false
+---
 
 I looked at a handful of guides, but many pointed to outdated information (such as using ```fastboot oem unlock``` instead of ```fastboot flashing unlock```) which prevents any practical attempt at rooting a vanilla 6P. Here's what worked for me.
 
