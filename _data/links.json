@@ -4,7 +4,6 @@
 		"url":"https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired?language=en",
 		"what":"Jamie Heywood, founder of <a href='http://www.patientslikeme.com/' target='_blank'>PatientsLikeMe</a>, shows how it's possible to crowdsource information about effective treatments of chronic conditions when patients share their data freely with the open data community.",
 		"category":"TED Talks",
-		"tags":["medicine","als","opendata"]
 	},
 	{
 		"name":"Ona.io",
@@ -18,48 +17,41 @@
 		"url":"http://ict4dprinciples.org/",
 		"what":"9 principles to guide the implementation of information and communications technology for development (ICT4D) projects. If you're around DC, try to make the events in person.",
 		"category": "ICT4D",
-		"tags":["bestpractices","lessonslearned"]
 	},
 	{
 		"name":"Jekyll",
 		"url":"http://jekyllrb.com/",
 		"what":"A fantastic static site generator that I use to power this website. Integrates nicely with Github pages. I've used it to build websites for USG, and was inspired by <a href='http://www.developmentseed.org/blog/2012/07/27/build-cms-free-websites/' target='_blank'>this Devseed article</a>.",
 		"category": "Web Dev",
-		"tags":["free","opensource"]
 	},
 	{
 		"name":"Sublime Text",
 		"url":"http://www.sublimetext.com/",
 		"what":"Hands down my favorite text editor for coding. Hundreds of free packages are available to facilitate coding with any language, and boilerplate for frameworks like Bootstrap.",
 		"category": "Web Dev",
-		"tags":["free"]
 	},
 	{
 		"name":"Trello",
 		"url":"https://trello.com/",
 		"what":"A great way to organize your ideas into boards, cards, and lists. For personal use and small projects, I prefer it to Asana.",
 		"category":"Productivity",
-		"tags":["free","productivity","collaboration","api"]
 	},
 	{
 		"name":"worldtimebuddy",
 		"url":"http://www.worldtimebuddy.com/",
 		"what":"The most intuitive time zone scheduler for multiple time zones. I use it every week.",
 		"category":"Productivity",
-		"tags":["free"]
 	},
 	{
 		"name":"Pocket",
 		"url":"https://getpocket.com/",
 		"what":"Save links to read later offline. Works seamlessly on iOS & Android. I literally use it every day.",
 		"category":"Productivity",
-		"tags":["free","api"]
 	},
 	{
 		"name":"Github Pages",
 		"url":"https://pages.github.com/",
 		"what":"A great place to host Jekyll or other websites that don't need an application server. No hosting costs at all! This site is hosted on Github Pages.",
 		"category":"Web Dev",
-		"tags":["free"]
 	}	
 ]

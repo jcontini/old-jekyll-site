@@ -1,6 +1,5 @@
 ---
 title: Mining WhatsApp for Language Learning
-published: true
 ---
 
 I recently moved to Indonesia and am slowly learning the local language, Bahasa Indonesia. I've been learning a bit from a tutor, but when I try to use the sentences and words in conversation, my local friends tell me that the style I'm using is too formal and not how people naturally talk. I also noticed a lot of slang/informal words in Bahasa-speaking WhatsApp groups I've been added to.
