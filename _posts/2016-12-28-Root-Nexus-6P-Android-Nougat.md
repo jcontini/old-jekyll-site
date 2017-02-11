@@ -1,5 +1,5 @@
 ---
-title: Rooting a Nexus 6P on Android 7.1.1 [NMF26F]
+title: Rooting a Nexus 6P on Android Nougat
 ---
 
 I looked at a handful of guides, but many pointed to outdated information (such as using ```fastboot oem unlock``` instead of ```fastboot flashing unlock```) which prevents any practical attempt at rooting a vanilla 6P. Here's what worked for me.
@@ -14,6 +14,7 @@ This post shows how to:
 - This will delete everything on your phone. All apps, app data, contacts, WhatsApp messages, photos, high scores, etc, downloaded Spotify music, podcasts, YouTube videos, etc.
 - You probably want to ensure that Google is properly backing up everything to the cloud, including photos and contacts. If you use WhatsApp, ensure that it is properly backed up to Google Drive before proceeding.
 - Modern Google phones (Nexus 6P, Nexus 5X, Pixel) have what is called a 'QFuse' which permanently 'blows' when you unlock the bootloader. After you do this, you will see a message on every boot up that `Your device software can't be checked for corruption. Please lock the bootloader`. More details [here](https://forum.xda-developers.com/nexus-5x/help/to-remove-corruption-warning-message-t3248441).
+- This was tested with Android 7.1.1 [NMF26F] on a Nexus 6P. There may be differences for future versions or different models.
 
 ## How To
 
